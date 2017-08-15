@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GertakSGF_CosmeticSolution"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GertakSGF_CosmeticSolution.Tests", "GertakSGF_CosmeticSolution.Tests\GertakSGF_CosmeticSolution.Tests.csproj", "{D9A35BDC-B19C-4BD6-A5E1-00EFA3F4D18E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GertakSGF_CosmeticSolution_Entity", "GertakSGF_CosmeticSolution_Entity\GertakSGF_CosmeticSolution_Entity.csproj", "{31E52A6B-E9C7-4553-916E-D55C49CA30D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GertakSGF_CosmeticSolution_Data", "GertakSGF_CosmeticSolution_Data\GertakSGF_CosmeticSolution_Data.csproj", "{B359C32B-FA7E-4B2D-AE43-62BF0EC1242C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GertakSGF_CosmeticSolution_Business", "GertakSGF_CosmeticSolution_Business\GertakSGF_CosmeticSolution_Business.csproj", "{B8DBB69D-A995-477E-9425-B9E8569DD6F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{D9A35BDC-B19C-4BD6-A5E1-00EFA3F4D18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9A35BDC-B19C-4BD6-A5E1-00EFA3F4D18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9A35BDC-B19C-4BD6-A5E1-00EFA3F4D18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E52A6B-E9C7-4553-916E-D55C49CA30D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E52A6B-E9C7-4553-916E-D55C49CA30D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E52A6B-E9C7-4553-916E-D55C49CA30D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E52A6B-E9C7-4553-916E-D55C49CA30D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B359C32B-FA7E-4B2D-AE43-62BF0EC1242C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B359C32B-FA7E-4B2D-AE43-62BF0EC1242C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B359C32B-FA7E-4B2D-AE43-62BF0EC1242C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B359C32B-FA7E-4B2D-AE43-62BF0EC1242C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DBB69D-A995-477E-9425-B9E8569DD6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DBB69D-A995-477E-9425-B9E8569DD6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DBB69D-A995-477E-9425-B9E8569DD6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DBB69D-A995-477E-9425-B9E8569DD6F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
