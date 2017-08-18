@@ -43,6 +43,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsuariosBusiness.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GertakSGF_CosmeticSolution_Data\GertakSGF_CosmeticSolution_Data.csproj">
+      <Project>{B359C32B-FA7E-4B2D-AE43-62BF0EC1242C}</Project>
+      <Name>GertakSGF_CosmeticSolution_Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GertakSGF_CosmeticSolution_Entity\GertakSGF_CosmeticSolution_Entity.csproj">
+      <Project>{31E52A6B-E9C7-4553-916E-D55C49CA30D3}</Project>
+      <Name>GertakSGF_CosmeticSolution_Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
